@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Estilo para la portada */
+.portada {
+      background-image: url("fondos-negro-y-morado-ncacwppi5dvfsax4.jpg"); /* Ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c105c;
+    text-align: center;
+}
+
+.portada h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Estilo para las secciones */
+.seccion {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ h2 {
+    color: #ffffff;
+    background-color: #800080; /* Fondo morado */
+    padding: 15px 25px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    display: inline-block;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+    border: 2px solid #ffffff; /* Borde blanco */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+h2 {
+    color: #551c55;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+h2::before {
+    content: "➤"; /* Puedes usar un emoji o código de ícono */
+    position: absolute;
+    left: 15px;
+    color: rgba(159, 8, 247, 0.418);
+    font-size: 1.2em;
+}
+h2 {
+    background: transparent;
+    color: #360636;
+    border-left: 5px solid #3d073d;
+    border-radius: 0;
+    padding-left: 20px;
+    box-shadow: none;
+}
+/* Menú de navegación */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #6b106bb7;
+}
+
+/* Estilo para el contenido */
+.contenido {
+    padding-top: 80px;
+    background-color: #ffffff;
+    color: #000000;
+}
